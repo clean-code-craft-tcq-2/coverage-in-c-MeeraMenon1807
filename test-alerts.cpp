@@ -5,7 +5,7 @@
 
 TEST_CASE("test create controller alert target does not throw error")
 {
-  REQUIRE_NOTHROW(createControllerAlertTarget());
+  REQUIRE_NOTHROW(createControllerAlertTarget()); 
 }
 
 TEST_CASE("test alert send to controller does not throw error")
