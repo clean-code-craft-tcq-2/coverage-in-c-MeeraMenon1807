@@ -171,7 +171,7 @@ SCENARIO("infer the breach according to limits")
 
     WHEN("value equal to lower limit is provided")
     {
-      double value = upperLimit;
+      double value = lowerLimit;
       THEN("breach should be NORMAL")
       {
         REQUIRE(inferBreach(value, lowerLimit, upperLimit) == NORMAL);
